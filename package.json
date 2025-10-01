@@ -1,0 +1,18 @@
+{
+  "name": "spring-wrapper",
+  "version": "1.0.0-alpha",
+  "description": "A modern and fast Spotify API wrapper useful for searching, downloading, and uploading music",
+  "type": "module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "transicle",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.1",
+  "devDependencies": {
+    "@types/node": "^24.6.1"
+  }
+}
