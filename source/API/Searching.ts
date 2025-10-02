@@ -9,6 +9,8 @@ export class Searching {
     }
 
     // Songs / Music
+
+    private songURL: string = "";
     /**
      * 
      * Search for a song on Spotify, multiple search results can pop up for generic searches or popular songs.
@@ -19,7 +21,7 @@ export class Searching {
     findSong(
         name: string,
         artist?: string
-    ) {
-
+    ): string[] {
+        return [];
     }
 }
