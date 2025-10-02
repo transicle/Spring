@@ -1,4 +1,5 @@
 export class Upload {
+    private cachedToken: string = "";
     /**
      * 
      * @param API_key Token used for authentication when uploading songs or making a new playlist.
@@ -6,6 +7,6 @@ export class Upload {
     constructor(
         API_key: string = ""
     ) {
-
+        this.cachedToken = API_key;
     }
 }

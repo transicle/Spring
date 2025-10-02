@@ -1,11 +1,13 @@
 export class Searching {
+    private cachedToken: string = "";
     /**
      * 
-     * When searching for music, artists, playlists, etc., an API key is **not**
-     *  required, however, you do if you plan to make changes to anything.
+     * @param API_key Token used for authentication when searching using Spotify's API.
      */
-    constructor() {
-
+    constructor(
+        API_key: string = ""
+    ) {
+        this.cachedToken = API_key;
     }
 
     // Songs / Music
